@@ -83,6 +83,7 @@ app.get('/login', function (req, res){
   login();
 });
 
+
 app.get('/login-again', function (req, res){
   function login_again(){
   var passport = require('passport');
@@ -91,6 +92,10 @@ app.get('/login-again', function (req, res){
   }
   res.render("login-again");
   login_again();
+});
+
+app.get('/politicas-seguridad', function (req, res){
+  res.render("politicas-seguridad");
 });
 
 app.get('/register_new_user_token5985555213BMDXM', function (req, res){

@@ -67,6 +67,38 @@ body {
     padding : .5em;
     color : blue;
 }
+.Networking p{
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+.Networking_politic-private p{
+  display: inline-block;
+}
+.Networking_politic-private .link-privacidad{
+  color: #3B5998;
+  text-decoration: underline;
+  display: inline-block;
+  margin: 0;
+  padding: .5em;
+  font-size: 1em;
+}
+
+.Content-private{
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  color:#424242;
+}
+.Content-private h2{
+    padding-bottom: .8em;
+}
+.Content-private h3{
+  padding: .5em;
+}
+.Content-private p{
+  padding: .8em;
+}
 @media (min-width: 768px) {
   .happy__box {
     padding: 4em;
